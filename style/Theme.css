@@ -8,7 +8,7 @@ body {
 	padding: 20px;
 }
 
-.asd-description .asd-title{
+.asd-description .asd-title {
 	text-align: center;
 	font-family: Calibri;
 	background-image: url('../media/img/team-image.jpg');
@@ -16,21 +16,117 @@ body {
 	background-size: cover;
 	height: 270px;
 }
-.asd-description .asd-title h1{
-	font-size: 60px;
-	line-height: 170px;
+
+.asd-description .asd-title h1 {
+	font-size: 70px;
+	line-height: 270px;
 	margin: 0;
 }
 
-.footer-style{
+.team-status {
+	float: right;
+	width: 33%;	
+	border-radius: 10px 10px 10px 10px;
 	background-color: black;
-	padding: 20px;
-	
+	margin: 10px 0;
+	font-family: Calibri;
 }
 
-.footer-style h6{
+.team-status p {
+	margin-bottom: 0;
+	margin-left: 10px;
+	font-weight: bold;
+	font-size: 1.5em;
+	color: white;
+}
+
+
+.team-status table {
+	width: 96%;
+	height: auto;
+	margin: 6px;
+	color: gold;
+}
+
+
+.team-status .star-valuation {
+	width: 16px;
+	height: auto;
+}
+
+.team-status .team-logo {
+	width:105px;
+	height: auto;
+	padding:0 34%;
+}
+
+.team {
+	width: 66%;
+	float: left;
+	background-color: black;
+	border-radius: 10px 10px 10px 10px;
+	margin: 10px 0;
+	color: gold;
+}
+
+.team h1 {
+	text-align: center;
+	font-family: Calibri;
+	color: white;
+}
+
+.team .player-position {
+	text-align: center;
+	margin: 0;
+	font-family: Calibri;
+	color: white;
+}
+
+.team td {
+	font-family: Calibri;
+	padding: 0 10px;
+}
+
+.gaming-time {
+clear:both;
+background-color: black;
+border-radius: 10px 10px 10px 10px;
+margin: 10px 0;	
+}
+
+.gaming-time .gaming-cont{
+	position: relative;
+	top: 0;
+	left: 0;
+	background-image: url('../media/img/green.jpg');
+	height: 500px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	left: 100px;
+}
+
+#ball { 
+background-color: white;
+border-radius: 50px;
+position: relative;
+top: 220px;
+left: 0px;
+width: 50px;
+height: 50px;
+}
+
+.footer-style {
+	background-color: black;
+	padding: 20px;
+	clear: both;
+	border-radius: 10px 10px 10px 10px;
+}
+
+.footer-style h6 {
 	color: gold;
 	text-align: center;
 	font-family: Calibri;
 	font-size: 12px;
 }
+
+
