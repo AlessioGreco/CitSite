@@ -155,13 +155,15 @@
 				</tr>
 			</table>
 	</article>
+	<iframe id="iframe"></iframe>
 	<section class="gaming-time">
 		<div class="gaming-cont">
-			<div id="ball" onclick="move()">
+			<div id="ball">
 				<img width="50px" height="50px" src="media/img/ball.jpg" alt="ball">
 			</div>
 		</div>
 	</section>
+
 	<footer class="footer-style">
 		<hr>
 		<h6>

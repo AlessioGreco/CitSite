@@ -88,31 +88,28 @@ body {
 }
 
 .gaming-time {
-clear:both;
-background-color: black;
-border-radius: 10px 10px 10px 10px;
-margin: 10px 0;	
+	clear:both;
+	background-color: black;
+	border-radius: 10px 10px 10px 10px;
+	margin: 10px 0;	
 }
 
 .gaming-time .gaming-cont{
 	position: relative;
-	top: 0;
-	left: 0;
 	background-image: url('../media/img/green.jpg');
 	height: 500px;
-	background-size: contain;
+	width: 800px;
+	background-size: cover;
 	background-repeat: no-repeat;
-	left: 100px;
+	margin: 0 auto;
 }
 
 #ball { 
-background-color: white;
-border-radius: 50px;
-position: relative;
-top: 220px;
-left: 0px;
-width: 50px;
-height: 50px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 50px;
+	height: 50px;
 }
 
 .footer-style {
