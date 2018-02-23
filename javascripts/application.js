@@ -3,24 +3,19 @@ var here = 0;
 var speed = 10;
 var idLoop = 0;
 var run = 0;
-var idRestart = 0;
-var timeDelayStart = 1;
-var timeDelayRestart = 10000;
+var idRestart = 0;			
+var timeDelayStart = 1;		//Delay Start
+var timeDelayRestart = 10000; //Delay Autostart
 var coords = {
 	'x' : 0,
 	'y' : 0
 };
+//Più che consigli mi sa che sono "Perle di Saggezza"
 var phrases = [
-"Uomo di Pancia, Uomo di Sostanza!",
-"Signori si nasce, non lo si diventa!",
-"2",
-"3",
-"4",
-"5",
-"6",
-"7",
-"8",
-"9"
+"Allenatore: Il calcio è più semplice della Teoria di Einstein e piu difficile di fare 2+2",
+"Allenatore: Nel calcio tutto è complicato dalla presenza della squadra avversaria!",
+"Allenatore: Dategli 22 palloni, cosi la smettono di litagare",
+"Allenatore: In fin dei conti il calcio è fantasia, un cartone animato per adulti"
 ];
 
 function loadCoords() {
@@ -62,7 +57,7 @@ function stopMove() {
 	clearTimeout(idRestart); //Prevenzione per i "Click Compulsivi"
 	run = 0;
 	loadCoords();
-	alert(phrases[Math.floor(Math.random()*9)]);
+	alert(phrases[Math.floor(Math.random()*3)]);
 	idRestart = setTimeout(loop, timeDelayRestart);
 }
 
