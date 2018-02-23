@@ -155,15 +155,14 @@
 				</tr>
 			</table>
 	</article>
-	<iframe id="iframe"></iframe>
 	<section class="gaming-time">
+		<iframe id="iframe"></iframe>
 		<div class="gaming-cont">
 			<div id="ball">
 				<img width="50px" height="50px" src="media/img/ball.jpg" alt="ball">
 			</div>
 		</div>
 	</section>
-
 	<footer class="footer-style">
 		<hr>
 		<h6>
@@ -177,7 +176,6 @@
 		</h6>
 		<hr>
 	</footer>
-
 	<script src="/javascripts/application.js" type="text/javascript" charset="utf-8" async defer>
 	</script>
 </body>

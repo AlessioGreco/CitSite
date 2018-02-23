@@ -94,6 +94,14 @@ body {
 	margin: 10px 0;	
 }
 
+#iframe {
+	height: 34px;
+	width: 100px;
+	margin: 0 auto;
+	display: block;
+	background-color: white;
+}
+
 .gaming-time .gaming-cont{
 	position: relative;
 	background-image: url('../media/img/green.jpg');
